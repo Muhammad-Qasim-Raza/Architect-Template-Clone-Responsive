@@ -1,2 +1,3 @@
 # Architect-Template-Clone-Responsive
-This repository contains a responsive version of the W3Schools Architect template.
+This repository contains a responsive version of the W3Schools Architect template, which is built using HTML and CSS. The website features a modern and sleek design, with a header that includes a navigation bar and a large banner image. The responsive design ensures that the website's layout adjusts seamlessly to different screen sizes, from desktop to mobile devices.
+The website includes several sections below the banner image, providing information about the website's services, team members, and contact information. The website is built using HTML, CSS with additional CSS media queries included to ensure the responsiveness of the design.
