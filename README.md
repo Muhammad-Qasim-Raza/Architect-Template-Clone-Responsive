@@ -4,5 +4,4 @@ The website includes several sections below the banner image, providing informat
 
 The website is hosted on GitHub Pages. This means it can be easily accessed and viewed online. If you would like to preview my Architect-Template-Clone-Responsive website, you can do so by clicking on the following link: https://muhammad-qasim-raza.github.io/Architect-Template-Clone-Responsive/.
 
-
 And "If you would like to preview the original website, you can do so by clicking on the following link: https://www.w3schools.com/w3css/tryw3css_templates_architect.htm"
