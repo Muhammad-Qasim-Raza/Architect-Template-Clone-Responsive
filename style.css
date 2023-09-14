@@ -1,56 +1,146 @@
+a {
+    display: inline-block;
+    background-color: transparent;
+    padding: 2px 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    /* remove border */
+    transition: background-color 0.3s, border 0.3s;
+    /* transition for background and border */
+}
+
+a:hover {
+    background-color: lightgray;
+    border: 1px solid lightgrey;
+    /* add border */
+}
+
+p {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.mynavmain {
+    margin-bottom: -24px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.211);
+}
+
+.mynav {
+    display: flex;
+    justify-content: end;
+}
+
 .container {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
- }
- 
- .container > div {
-     flex-basis: 100%;
- }
- 
-/* Extra small devices (phones, less than 576px) */
-@media (max-width: 575.98px) {
-    .container > div {
-        flex-basis: 100%;
-    }
-  }
-  
-  /* Small devices (phones, 576px and up) */
-  @media (min-width: 576px) {
-    .container > div {
-        flex-basis: 100%;
-    }
-  }
-  
-  /* Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-    .container > div {
-        flex-basis: 22%;
-    }
-  }
-  
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-    .container > div {
-        flex-basis: 22%;
-    }
-  }
-  
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-    .container > div {
-        flex-basis: 22%;
-    }
-  }
-  
- 
- img {
-     max-width: 100%;
-  }
+}
 
-  form input[type=text], form input[type=email], form textarea {
-    box-sizing: border-box;
-    padding: 5px;
-  }
-  
- 
+.container>div {
+    flex-basis: 100%;
+}
+
+.aboutboxes {
+    margin-bottom: 20px;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 499.99px) {
+    .container>div {
+        flex-basis: 100%;
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 500px) {
+    .container>div {
+        flex-basis: 48%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container>div {
+        flex-basis: 30%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container>div {
+        flex-basis: 22%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container>div {
+        flex-basis: 22%;
+    }
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* Apply some basic styles to the form */
+.fcontainer {
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+/* Style form inputs and button */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
